@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+p {
+    margin: 5px 0;
+    padding: 5px 10px;
+    font-size: 30px;
+}
+
+button {
+    margin: 5px 0;
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+button:hover {
+    box-shadow: 0 5px 5px lightgray;
+    cursor: pointer;
+}
+
+/* ----- */
+
+#dela-button {
+    font-family: "Dela Gothic One", sans-serif;
+    background-color: mistyrose;
+    color: crimson;
+    border: 2px solid crimson;
+    border-top: 2px solid salmon;
+    border-left: 2px solid salmon;
+}
+
+#dot-button {
+    font-family: "DotGothic16", sans-serif;
+    background-color: black;
+    color: chartreuse;
+    border: 2px solid gray;
+    border-top: 2px solid darkgray;
+    border-left: 2px solid darkgray;
+}
+
+#kaisei-button {
+    font-family: "Kaisei Opti", serif;
+    background-color: floralwhite;
+    color: brown;
+    border: 2px solid brown;
+    border-top: 2px solid peru;
+    border-left: 2px solid peru;
+}
+
+#tagomin-button {
+    font-family: "New Tegomin", serif;
+    background-color: lightblue;
+    color: steelblue;
+    border: 2px solid steelblue;
+    border-top: 2px solid skyblue;
+    border-left: 2px solid skyblue;
+}
+
+#rampart-button {
+    font-family: "Rampart One", sans-serif;
+    background-color: aliceblue;
+    color: darkblue;
+    border: 2px solid darkblue;
+    border-top: 2px solid dodgerblue;
+    border-left: 2px solid dodgerblue;
+}
+
+#rocknRoll-button {
+    font-family: "RocknRoll One", sans-serif;
+    background-color: papayawhip;
+    color: orangered;
+    border: 2px solid orangered;
+    border-top: 2px solid orange;
+    border-left: 2px solid orange;
+}
+
+#original-button {
+    background-color: lightgray;
+    color: black;
+    border: 2px solid gray;
+}
+
+/* ----- */
+
+.dela-style {
+    font-family: "Dela Gothic One", sans-serif;
+    color: crimson;
+    background-color: mistyrose;
+    border: 2px solid crimson;
+}
+
+.dot-style {
+    font-family: "DotGothic16", sans-serif;
+    color: chartreuse;
+    background-color: black;
+    border: 2px solid gray;
+}
+
+.kaisei-style {
+    font-family: "Kaisei Opti", serif;
+    color: brown;
+    background-color: floralwhite;
+    border: 2px solid brown;
+}
+
+.tagomin-style {
+    font-family: "New Tegomin", serif;
+    color: steelblue;
+    background-color: lightblue;
+    border: 2px solid steelblue;
+}
+
+.rampart-style {
+    font-family: "Rampart One", sans-serif;
+    color: darkblue;
+    background-color: aliceblue;
+    border: 2px solid darkblue;
+}
+
+.rocknRoll-style {
+    font-family: "RocknRoll One", sans-serif;
+    color: orangered;
+    background-color: papayawhip;
+    border: 2px solid orangered;
+}
