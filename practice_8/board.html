@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>演習課題1 - 簡易掲示板</title>
+    <link rel="stylesheet" href="board.css">
+</head>
+<body>
+    <h3>JavaScript演習課題</h3>
+
+    ニックネーム : <input type="text" id="name" placeholder="名無しさん">
+    <button onclick="postMessage()">投稿する</button>
+    <br>
+    <textarea id="content" cols="64" rows="5" placeholder="投稿内容をここに入力"></textarea>
+
+    <dl id="messageContainer"></dl>
+
+    <script type="text/javascript" src="board.js"></script>
+</body>
+</html>

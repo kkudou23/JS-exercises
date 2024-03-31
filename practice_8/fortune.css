@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+*,  *::before, *::after {
+    box-sizing: border-box;
+}
+
+main, body, h1, h2, h3, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.pageTitle, 
+#resultH1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.pageTitle {
+    margin: 20px 0 40px 0;
+    padding: 20px 0;
+    color: white;
+    background-color: rgb(255, 75, 0);
+    box-shadow: 0 0 0 10px rgb(255, 75, 0);
+    border-top: 3px dashed white;
+    border-bottom: 3px dashed white;
+}
+
+.pageTitle::before, 
+.pageTitle::after {
+    content: "～";
+    margin: 0 30px;
+}
+
+button .material-symbols-outlined {
+    font-size: 16px;
+    vertical-align: -4px;
+    margin-left: 5px;
+}
+
+#resultContainer {
+    margin: 30px auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.goldText {
+    background: #333;
+    background: -webkit-linear-gradient(top, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.redText {
+    color: rgb(255, 75, 0);
+}
+
+.greenText {
+    color: rgb(3, 175, 122);
+}
+
+.lightblueText {
+    color: rgb(77, 196, 255);
+}
+
+.blueText {
+    color: rgb(0, 90, 255);
+}
+
+.grayText {
+    color: rgb(132, 145, 158);
+}
+
+.darkText {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 1), rgb(255, 120, 255));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

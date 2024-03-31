@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+*,  *::before, *::after {
+    box-sizing: border-box;
+}
+
+main, body, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #efefef;
+    margin: 30px 10vw;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: red;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+b {
+    color: green;
+}
+
+dd {
+    margin-bottom: 30px;
+}
